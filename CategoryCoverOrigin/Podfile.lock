@@ -1,0 +1,28 @@
+PODS:
+  - WMBusinessAKit (1.0.0):
+    - WMPlatformPKit (= 1.0.0)
+  - WMBusinessBKit (1.0.0):
+    - WMPlatformPKit (= 1.0.0)
+  - WMPlatformPKit (1.0.0)
+
+DEPENDENCIES:
+  - WMBusinessAKit (from `Pods/WMBusinessAKit`)
+  - WMBusinessBKit (from `Pods/WMBusinessBKit`)
+  - WMPlatformPKit (from `Pods/WMPlatformPKit`)
+
+EXTERNAL SOURCES:
+  WMBusinessAKit:
+    :path: Pods/WMBusinessAKit
+  WMBusinessBKit:
+    :path: Pods/WMBusinessBKit
+  WMPlatformPKit:
+    :path: Pods/WMPlatformPKit
+
+SPEC CHECKSUMS:
+  WMBusinessAKit: 836045e4f62cd93703b72fd3afa5365d72705656
+  WMBusinessBKit: 0cd402f384f708baf45da41d25ed41915ba7a5b8
+  WMPlatformPKit: 13ff330de04a285abba509fa43c3cc5bc2f4bad8
+
+PODFILE CHECKSUM: 913d03af9d417a6900c37bcb769abdd13d67b804
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,24 @@
+{
+  "name": "WMPlatformPKit",
+  "version": "1.0.0",
+  "summary": "WMPlatformPKit for test",
+  "homepage": "nil",
+  "license": "All rights reserved",
+  "authors": {
+    "dongshangxian": "dongshangxian@meituan.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "nil",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "WMPlatformPKit",
+    "Classes/**/*.{h,m}"
+  ],
+  "resources": "Resources/*.png",
+  "preserve_paths": "*.pch",
+  "requires_arc": true
+}

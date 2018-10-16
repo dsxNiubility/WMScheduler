@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F35A7918308B6FDF778C86773018E5 /* WMScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = FF42DED59B82CB1079D95B695E66AE1C /* WMScheduler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1693D40DA74497EF22D82EB4BED6D208 /* BHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9B3C8C7BDC68C754A6099CFEF62185 /* BHomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		185327F584AAA42F0D104A9007371EF7 /* ASampleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF6A3E9B61368ACC72D36C0FFD60D2 /* ASampleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3091DF9146D667A7C744F02D16A7CE9A /* Pods-CategoryCoverOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E03D6E2677D538FEB4C74020DAAC62E1 /* Pods-CategoryCoverOrigin-dummy.m */; };
+		4D01F52FBFD900FF046BA12EA9EA67EC /* BHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1F99286DF1D69F89F48387FF1C428B /* BHomeViewController.m */; };
+		516ACCB442F1355643B9208DFFAA3E6F /* WMPlatformPKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A57B4805119C49880DD20A1DB2D9310B /* WMPlatformPKit-dummy.m */; };
+		7ADE471EF6BF80F12022AE1033740D1D /* WMScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FA8779401C89C13CD7E57FCB71FDE /* WMScheduler.m */; };
+		A84D866C59E3B6CA02174C7FD2764337 /* WMBusinessAKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81A7DFE213631308E2041A000DC7E5 /* WMBusinessAKit-dummy.m */; };
+		AAF82F11944BD67094996CC06828B91E /* ASampleEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C674CFF6270E66FC6B016245C9922F /* ASampleEntity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE0ADBF142383C8981B993AA0E94C0A2 /* ASampleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6BB9C4AC9FCDFB1C05A6C4BA93E476 /* ASampleManager.m */; };
+		B9FD4D1231A40B4115F22661314DC1AF /* WMBusinessBKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF10F121C8A088478B8E7DCF738D581 /* WMBusinessBKit-dummy.m */; };
+		E66377044891E5E8460E28052EBDE0BD /* ASampleEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F67AFA3CB531E44D55C019529EAAF /* ASampleEntity.m */; };
+		F704BC0CA559EAAE294F1EC60F2709E9 /* WMScheduler+A.m in Sources */ = {isa = PBXBuildFile; fileRef = EA876DB970DED94918F91D79D29297E1 /* WMScheduler+A.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ED340564169D7EF8D99F75E86CAA1F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89223A30C0DB91A584FB895305663AEF;
+			remoteInfo = WMPlatformPKit;
+		};
+		734AEE0D7F8CB0BB4528EC975BF1FB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89223A30C0DB91A584FB895305663AEF;
+			remoteInfo = WMPlatformPKit;
+		};
+		91A057A34E37F390151565FF8DBEA670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB66B488B55A321457A7AA553496D2FA;
+			remoteInfo = WMBusinessBKit;
+		};
+		CF9E8C65A8C9912CE118CD2BFC304E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89223A30C0DB91A584FB895305663AEF;
+			remoteInfo = WMPlatformPKit;
+		};
+		D2FF4F9F720097C93890459E6AEB1EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411A6BFC633ECFC58FD9278FD1E08B23;
+			remoteInfo = WMBusinessAKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FF6A3E9B61368ACC72D36C0FFD60D2 /* ASampleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASampleManager.h; path = Classes/ASampleManager.h; sourceTree = "<group>"; };
+		3F2FA8779401C89C13CD7E57FCB71FDE /* WMScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMScheduler.m; path = Classes/WMScheduler.m; sourceTree = "<group>"; };
+		4149D61B2EB631DBE308E57DF74CBC49 /* libPods-CategoryCoverOrigin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CategoryCoverOrigin.a"; path = "libPods-CategoryCoverOrigin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB392AED6958F19EEEBDD026334A329 /* WMBusinessBKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WMBusinessBKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5AACBEA0D4C8E7E702A7E5DF8780ED6F /* WMBusinessAKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMBusinessAKit-prefix.pch"; sourceTree = "<group>"; };
+		6BFD9A846DBE0BDD84D3361CC792D53B /* libWMBusinessBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWMBusinessBKit.a; path = libWMBusinessBKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE3D63F51D00C3CFE8F673236B0EEEE /* libWMPlatformPKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWMPlatformPKit.a; path = libWMPlatformPKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF10F121C8A088478B8E7DCF738D581 /* WMBusinessBKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMBusinessBKit-dummy.m"; sourceTree = "<group>"; };
+		8C9B3C8C7BDC68C754A6099CFEF62185 /* BHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHomeViewController.h; path = Classes/BHomeViewController.h; sourceTree = "<group>"; };
+		8E9E96BCA64E8258D1F5C5BA6F29AA7A /* WMBusinessAKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WMBusinessAKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0BDEEE0BB8EEDFD48EA374211672389 /* WMBusinessBKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMBusinessBKit-prefix.pch"; sourceTree = "<group>"; };
+		A57B4805119C49880DD20A1DB2D9310B /* WMPlatformPKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMPlatformPKit-dummy.m"; sourceTree = "<group>"; };
+		A5C674CFF6270E66FC6B016245C9922F /* ASampleEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASampleEntity.h; path = Classes/ASampleEntity.h; sourceTree = "<group>"; };
+		A5DE9C4336E768DE6AC5554B1526ABF4 /* WMBusinessBKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMBusinessBKit.xcconfig; sourceTree = "<group>"; };
+		AA1B505DC9D2CE45D1133856CE3F8E73 /* Pods-CategoryCoverOrigin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CategoryCoverOrigin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA1F99286DF1D69F89F48387FF1C428B /* BHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHomeViewController.m; path = Classes/BHomeViewController.m; sourceTree = "<group>"; };
+		B2057E169F4D27B6A14DABEACCA9AF2F /* Pods-CategoryCoverOrigin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CategoryCoverOrigin.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7FA30D37D395904108E26FD460082C /* WMPlatformPKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMPlatformPKit-prefix.pch"; sourceTree = "<group>"; };
+		C69AFDB0443AAA205C221E84EF1C5FFD /* Pods-CategoryCoverOrigin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CategoryCoverOrigin-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF6BB9C4AC9FCDFB1C05A6C4BA93E476 /* ASampleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASampleManager.m; path = Classes/ASampleManager.m; sourceTree = "<group>"; };
+		CF81A7DFE213631308E2041A000DC7E5 /* WMBusinessAKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMBusinessAKit-dummy.m"; sourceTree = "<group>"; };
+		DA2F67AFA3CB531E44D55C019529EAAF /* ASampleEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASampleEntity.m; path = Classes/ASampleEntity.m; sourceTree = "<group>"; };
+		DE896295DD6B723F0B5E7D96DFF26AED /* libWMBusinessAKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWMBusinessAKit.a; path = libWMBusinessAKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03D6E2677D538FEB4C74020DAAC62E1 /* Pods-CategoryCoverOrigin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CategoryCoverOrigin-dummy.m"; sourceTree = "<group>"; };
+		E07020AB04BBD636AB5DBB57EE31F094 /* Pods-CategoryCoverOrigin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CategoryCoverOrigin-frameworks.sh"; sourceTree = "<group>"; };
+		E28A6DEC5400ECC344063F24F35594CE /* Pods-CategoryCoverOrigin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CategoryCoverOrigin-resources.sh"; sourceTree = "<group>"; };
+		E842745275E59165A4F05E5484547173 /* WMPlatformPKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMPlatformPKit.xcconfig; sourceTree = "<group>"; };
+		EA876DB970DED94918F91D79D29297E1 /* WMScheduler+A.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WMScheduler+A.m"; path = "Classes/WMScheduler+A.m"; sourceTree = "<group>"; };
+		ED3FA1BA3ECEAE43959316B52890D6FD /* WMPlatformPKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WMPlatformPKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F91B7CE8DCF0B98AF41544F862B888B7 /* Pods-CategoryCoverOrigin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CategoryCoverOrigin.release.xcconfig"; sourceTree = "<group>"; };
+		FE5990BF0DF0D7FD19518A513E92849A /* WMBusinessAKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMBusinessAKit.xcconfig; sourceTree = "<group>"; };
+		FF42DED59B82CB1079D95B695E66AE1C /* WMScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMScheduler.h; path = Classes/WMScheduler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150B8BDC3D115656554D66D7792A104E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C037BFE9A90984338785B512BAA6C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D433E1654F3946EF293913BC232774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD5AA49E783EBDB806D76823379C766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AC93F417F6FB014933DF6D24D9E561 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5990BF0DF0D7FD19518A513E92849A /* WMBusinessAKit.xcconfig */,
+				CF81A7DFE213631308E2041A000DC7E5 /* WMBusinessAKit-dummy.m */,
+				5AACBEA0D4C8E7E702A7E5DF8780ED6F /* WMBusinessAKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WMBusinessAKit";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		329DCE3D380F3792A1BA93CB86EED888 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8E9E96BCA64E8258D1F5C5BA6F29AA7A /* WMBusinessAKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		413262FCC5E33FA2617D721DB80D52B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E842745275E59165A4F05E5484547173 /* WMPlatformPKit.xcconfig */,
+				A57B4805119C49880DD20A1DB2D9310B /* WMPlatformPKit-dummy.m */,
+				BD7FA30D37D395904108E26FD460082C /* WMPlatformPKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WMPlatformPKit";
+			sourceTree = "<group>";
+		};
+		415CCE7AA8F64BCD16960CD034749E7A /* Pods-CategoryCoverOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				AA1B505DC9D2CE45D1133856CE3F8E73 /* Pods-CategoryCoverOrigin-acknowledgements.markdown */,
+				C69AFDB0443AAA205C221E84EF1C5FFD /* Pods-CategoryCoverOrigin-acknowledgements.plist */,
+				E03D6E2677D538FEB4C74020DAAC62E1 /* Pods-CategoryCoverOrigin-dummy.m */,
+				E07020AB04BBD636AB5DBB57EE31F094 /* Pods-CategoryCoverOrigin-frameworks.sh */,
+				E28A6DEC5400ECC344063F24F35594CE /* Pods-CategoryCoverOrigin-resources.sh */,
+				B2057E169F4D27B6A14DABEACCA9AF2F /* Pods-CategoryCoverOrigin.debug.xcconfig */,
+				F91B7CE8DCF0B98AF41544F862B888B7 /* Pods-CategoryCoverOrigin.release.xcconfig */,
+			);
+			name = "Pods-CategoryCoverOrigin";
+			path = "Target Support Files/Pods-CategoryCoverOrigin";
+			sourceTree = "<group>";
+		};
+		46E780A629A072B639E76FACC253BF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4149D61B2EB631DBE308E57DF74CBC49 /* libPods-CategoryCoverOrigin.a */,
+				DE896295DD6B723F0B5E7D96DFF26AED /* libWMBusinessAKit.a */,
+				6BFD9A846DBE0BDD84D3361CC792D53B /* libWMBusinessBKit.a */,
+				6EE3D63F51D00C3CFE8F673236B0EEEE /* libWMPlatformPKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FCDA5999AF61BC7629C06398BA0AF4 /* WMBusinessBKit */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B3C8C7BDC68C754A6099CFEF62185 /* BHomeViewController.h */,
+				AA1F99286DF1D69F89F48387FF1C428B /* BHomeViewController.m */,
+				582AF521C61963075DCCE24C7AFC94CE /* Pod */,
+				BCF84398B55C1F58EC85DF7D59B45448 /* Support Files */,
+			);
+			name = WMBusinessBKit;
+			path = WMBusinessBKit;
+			sourceTree = "<group>";
+		};
+		582AF521C61963075DCCE24C7AFC94CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4AB392AED6958F19EEEBDD026334A329 /* WMBusinessBKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		75F7856B2F8818C145E6E0886BCB8C11 /* WMBusinessAKit */ = {
+			isa = PBXGroup;
+			children = (
+				A5C674CFF6270E66FC6B016245C9922F /* ASampleEntity.h */,
+				DA2F67AFA3CB531E44D55C019529EAAF /* ASampleEntity.m */,
+				07FF6A3E9B61368ACC72D36C0FFD60D2 /* ASampleManager.h */,
+				CF6BB9C4AC9FCDFB1C05A6C4BA93E476 /* ASampleManager.m */,
+				EA876DB970DED94918F91D79D29297E1 /* WMScheduler+A.m */,
+				329DCE3D380F3792A1BA93CB86EED888 /* Pod */,
+				01AC93F417F6FB014933DF6D24D9E561 /* Support Files */,
+			);
+			name = WMBusinessAKit;
+			path = WMBusinessAKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9D605E2839B5A296084D870640A79470 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				46E780A629A072B639E76FACC253BF07 /* Products */,
+				8F72A7818E9D99B4B97C9286F5C3B2DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C9EBEBF4888E839C07947D41515FCA2 /* WMPlatformPKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF42DED59B82CB1079D95B695E66AE1C /* WMScheduler.h */,
+				3F2FA8779401C89C13CD7E57FCB71FDE /* WMScheduler.m */,
+				A5F3591523FAE8B3F532A8343C2AA92A /* Pod */,
+				413262FCC5E33FA2617D721DB80D52B0 /* Support Files */,
+			);
+			name = WMPlatformPKit;
+			path = WMPlatformPKit;
+			sourceTree = "<group>";
+		};
+		8F72A7818E9D99B4B97C9286F5C3B2DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				415CCE7AA8F64BCD16960CD034749E7A /* Pods-CategoryCoverOrigin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9D605E2839B5A296084D870640A79470 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75F7856B2F8818C145E6E0886BCB8C11 /* WMBusinessAKit */,
+				50FCDA5999AF61BC7629C06398BA0AF4 /* WMBusinessBKit */,
+				8C9EBEBF4888E839C07947D41515FCA2 /* WMPlatformPKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5F3591523FAE8B3F532A8343C2AA92A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED3FA1BA3ECEAE43959316B52890D6FD /* WMPlatformPKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BCF84398B55C1F58EC85DF7D59B45448 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5DE9C4336E768DE6AC5554B1526ABF4 /* WMBusinessBKit.xcconfig */,
+				8BF10F121C8A088478B8E7DCF738D581 /* WMBusinessBKit-dummy.m */,
+				A0BDEEE0BB8EEDFD48EA374211672389 /* WMBusinessBKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WMBusinessBKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2691AB5B4B6E43C86FEB2A72B86503AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F35A7918308B6FDF778C86773018E5 /* WMScheduler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CDDEFACCE7D4D401C751FFAF430EB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1693D40DA74497EF22D82EB4BED6D208 /* BHomeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6534870C72559C40DEBAF6267D27F42B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF82F11944BD67094996CC06828B91E /* ASampleEntity.h in Headers */,
+				185327F584AAA42F0D104A9007371EF7 /* ASampleManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E1BE62B151452AB3BB20D90F5A3486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14E49660B688BE764BB2B7DA50DC4695 /* Pods-CategoryCoverOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FF3E1DC923F32D3EB9F989FB7960F1 /* Build configuration list for PBXNativeTarget "Pods-CategoryCoverOrigin" */;
+			buildPhases = (
+				66E1BE62B151452AB3BB20D90F5A3486 /* Headers */,
+				A583AF135DCFBC1AB4934601DBF3DF33 /* Sources */,
+				9DD5AA49E783EBDB806D76823379C766 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B005BF69B55715C776C76E90369EE4D /* PBXTargetDependency */,
+				121F06D2809D3104EB116499DFE7CF44 /* PBXTargetDependency */,
+				F7878FA91502E262E02211D7DB98F964 /* PBXTargetDependency */,
+			);
+			name = "Pods-CategoryCoverOrigin";
+			productName = "Pods-CategoryCoverOrigin";
+			productReference = 4149D61B2EB631DBE308E57DF74CBC49 /* libPods-CategoryCoverOrigin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		411A6BFC633ECFC58FD9278FD1E08B23 /* WMBusinessAKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F15A0F492B991494EDD54FF5BAD6D12 /* Build configuration list for PBXNativeTarget "WMBusinessAKit" */;
+			buildPhases = (
+				6534870C72559C40DEBAF6267D27F42B /* Headers */,
+				36A8E39092483518B1AD168E47703464 /* Sources */,
+				79D433E1654F3946EF293913BC232774 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B81E3CA08E77FEE89F2B150F6453D5 /* PBXTargetDependency */,
+			);
+			name = WMBusinessAKit;
+			productName = WMBusinessAKit;
+			productReference = DE896295DD6B723F0B5E7D96DFF26AED /* libWMBusinessAKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89223A30C0DB91A584FB895305663AEF /* WMPlatformPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03582B6E5F3FE9089A979B2AF79F189D /* Build configuration list for PBXNativeTarget "WMPlatformPKit" */;
+			buildPhases = (
+				2691AB5B4B6E43C86FEB2A72B86503AC /* Headers */,
+				B81CA1A7DF247E6353667D4914755371 /* Sources */,
+				1C037BFE9A90984338785B512BAA6C0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMPlatformPKit;
+			productName = WMPlatformPKit;
+			productReference = 6EE3D63F51D00C3CFE8F673236B0EEEE /* libWMPlatformPKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EB66B488B55A321457A7AA553496D2FA /* WMBusinessBKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC8B7AEFA5D95D72EB00E7BEB57FA81 /* Build configuration list for PBXNativeTarget "WMBusinessBKit" */;
+			buildPhases = (
+				39CDDEFACCE7D4D401C751FFAF430EB2 /* Headers */,
+				4ADA07F4EAA644B1B45A950B6F34C2A2 /* Sources */,
+				150B8BDC3D115656554D66D7792A104E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C6CC49CF37B512A854A80682B8D4A4 /* PBXTargetDependency */,
+			);
+			name = WMBusinessBKit;
+			productName = WMBusinessBKit;
+			productReference = 6BFD9A846DBE0BDD84D3361CC792D53B /* libWMBusinessBKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 46E780A629A072B639E76FACC253BF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E49660B688BE764BB2B7DA50DC4695 /* Pods-CategoryCoverOrigin */,
+				411A6BFC633ECFC58FD9278FD1E08B23 /* WMBusinessAKit */,
+				EB66B488B55A321457A7AA553496D2FA /* WMBusinessBKit */,
+				89223A30C0DB91A584FB895305663AEF /* WMPlatformPKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36A8E39092483518B1AD168E47703464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66377044891E5E8460E28052EBDE0BD /* ASampleEntity.m in Sources */,
+				AE0ADBF142383C8981B993AA0E94C0A2 /* ASampleManager.m in Sources */,
+				A84D866C59E3B6CA02174C7FD2764337 /* WMBusinessAKit-dummy.m in Sources */,
+				F704BC0CA559EAAE294F1EC60F2709E9 /* WMScheduler+A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADA07F4EAA644B1B45A950B6F34C2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D01F52FBFD900FF046BA12EA9EA67EC /* BHomeViewController.m in Sources */,
+				B9FD4D1231A40B4115F22661314DC1AF /* WMBusinessBKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A583AF135DCFBC1AB4934601DBF3DF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3091DF9146D667A7C744F02D16A7CE9A /* Pods-CategoryCoverOrigin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81CA1A7DF247E6353667D4914755371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516ACCB442F1355643B9208DFFAA3E6F /* WMPlatformPKit-dummy.m in Sources */,
+				7ADE471EF6BF80F12022AE1033740D1D /* WMScheduler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B81E3CA08E77FEE89F2B150F6453D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMPlatformPKit;
+			target = 89223A30C0DB91A584FB895305663AEF /* WMPlatformPKit */;
+			targetProxy = CF9E8C65A8C9912CE118CD2BFC304E2D /* PBXContainerItemProxy */;
+		};
+		121F06D2809D3104EB116499DFE7CF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMBusinessBKit;
+			target = EB66B488B55A321457A7AA553496D2FA /* WMBusinessBKit */;
+			targetProxy = 91A057A34E37F390151565FF8DBEA670 /* PBXContainerItemProxy */;
+		};
+		57C6CC49CF37B512A854A80682B8D4A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMPlatformPKit;
+			target = 89223A30C0DB91A584FB895305663AEF /* WMPlatformPKit */;
+			targetProxy = 3ED340564169D7EF8D99F75E86CAA1F1 /* PBXContainerItemProxy */;
+		};
+		7B005BF69B55715C776C76E90369EE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMBusinessAKit;
+			target = 411A6BFC633ECFC58FD9278FD1E08B23 /* WMBusinessAKit */;
+			targetProxy = D2FF4F9F720097C93890459E6AEB1EB8 /* PBXContainerItemProxy */;
+		};
+		F7878FA91502E262E02211D7DB98F964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMPlatformPKit;
+			target = 89223A30C0DB91A584FB895305663AEF /* WMPlatformPKit */;
+			targetProxy = 734AEE0D7F8CB0BB4528EC975BF1FB85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		224168DE584ADD25A905EC122F63F170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DE9C4336E768DE6AC5554B1526ABF4 /* WMBusinessBKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WMBusinessBKit/WMBusinessBKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WMBusinessBKit;
+				PRODUCT_NAME = WMBusinessBKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47CBB90BECEDE0125FE41542094007EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2057E169F4D27B6A14DABEACCA9AF2F /* Pods-CategoryCoverOrigin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		65151164AB594F043BE0886B7C9D81F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91B7CE8DCF0B98AF41544F862B888B7 /* Pods-CategoryCoverOrigin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78E31D6F47FDC276AE76643A6DA4B813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5990BF0DF0D7FD19518A513E92849A /* WMBusinessAKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WMBusinessAKit/WMBusinessAKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WMBusinessAKit;
+				PRODUCT_NAME = WMBusinessAKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE252E72159507346C2672B6E955A742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5990BF0DF0D7FD19518A513E92849A /* WMBusinessAKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WMBusinessAKit/WMBusinessAKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WMBusinessAKit;
+				PRODUCT_NAME = WMBusinessAKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2E60F5AE65FA1475D68FBE597ECE872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E842745275E59165A4F05E5484547173 /* WMPlatformPKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WMPlatformPKit/WMPlatformPKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WMPlatformPKit;
+				PRODUCT_NAME = WMPlatformPKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E546EBBF3B6E5AA4C7B87688FFD80890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E842745275E59165A4F05E5484547173 /* WMPlatformPKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WMPlatformPKit/WMPlatformPKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WMPlatformPKit;
+				PRODUCT_NAME = WMPlatformPKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6FC4F3C0C98D0E98947A887380051E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DE9C4336E768DE6AC5554B1526ABF4 /* WMBusinessBKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WMBusinessBKit/WMBusinessBKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WMBusinessBKit;
+				PRODUCT_NAME = WMBusinessBKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03582B6E5F3FE9089A979B2AF79F189D /* Build configuration list for PBXNativeTarget "WMPlatformPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E60F5AE65FA1475D68FBE597ECE872 /* Debug */,
+				E546EBBF3B6E5AA4C7B87688FFD80890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC8B7AEFA5D95D72EB00E7BEB57FA81 /* Build configuration list for PBXNativeTarget "WMBusinessBKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FC4F3C0C98D0E98947A887380051E6 /* Debug */,
+				224168DE584ADD25A905EC122F63F170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F15A0F492B991494EDD54FF5BAD6D12 /* Build configuration list for PBXNativeTarget "WMBusinessAKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E31D6F47FDC276AE76643A6DA4B813 /* Debug */,
+				AE252E72159507346C2672B6E955A742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FF3E1DC923F32D3EB9F989FB7960F1 /* Build configuration list for PBXNativeTarget "Pods-CategoryCoverOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CBB90BECEDE0125FE41542094007EF /* Debug */,
+				65151164AB594F043BE0886B7C9D81F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

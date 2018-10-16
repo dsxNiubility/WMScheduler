@@ -1,0 +1,13 @@
+# coding: utf-8
+# source 'ssh://'
+
+ENV['COCOAPODS_DISABLE_STATS'] = "true"
+ENV['COCOAPODS_DISABLE_DETERMINISTIC_UUIDS'] = "true"
+
+platform :ios, '9.0'
+
+target 'CategoryCoverOrigin' do
+  pod 'WMBusinessAKit', :path => 'Pods/WMBusinessAKit'
+  pod 'WMBusinessBKit', :path => 'Pods/WMBusinessBKit'
+  pod 'WMPlatformPKit', :path => 'Pods/WMPlatformPKit'
+end

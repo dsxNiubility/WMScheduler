@@ -1,0 +1,1 @@
+../../../WMBusinessAKit/Classes/ASampleManager.h
